@@ -1,0 +1,30 @@
+.list-items>ul>li{
+    list-style-type: none;
+
+}
+.container1{
+    margin: 40px 200px;
+    padding: 10px;
+    color: gray;
+}
+.content1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px;
+
+    
+}
+.footer{
+    
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.bold{
+    font-weight: bolder;
+    
+}

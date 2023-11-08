@@ -1,0 +1,76 @@
+.body{
+    background-color: #eee;
+    height: 100vh;
+
+}
+.form{
+    width: 30%;
+    padding:50px;
+    margin: 0 450px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius:6px ;
+    position: relative;
+    top: 90px;
+    
+}
+.form-item{
+    width: 100%;
+    padding:10px;
+    margin:10px;
+    border-radius: 6px;
+    border:solid 0.5px;
+    border-color: gray;
+    
+}
+.signin{
+    text-align: center;
+    
+}
+.button{
+    background-color: #0d6efd ;
+    color: white;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.btn1{
+    background-color: #ea4335;
+}
+.btn2{
+    background-color: #3b5998;
+}
+.hl{
+    border-top:solid black 0.5px ;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px  ;
+    padding: 10px 80px;
+    align-items: center;
+    
+}
+.heading{
+    font-size:1.75rem;
+    font-weight: bold;
+}
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+    gap: 15px;
+    cursor: pointer;
+    
+
+}
+.nav-items>li>a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    border-style: none;  
+}
+.btn>a{
+    text-decoration: none;
+    color: black;
+}

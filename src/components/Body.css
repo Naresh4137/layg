@@ -1,0 +1,108 @@
+.body{
+    background-color: #eee;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px  ;
+    padding: 5px;
+    align-items: center;
+    background-color: #fff;
+    
+}
+.heading{
+    font-size:1.75rem;
+    font-weight: bold;
+}
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+    gap: 15px;
+    cursor: pointer;
+    color: gray;
+
+}
+.nav-items>li>a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.btn{
+    border-style: none;  
+}
+.btn>a{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    display: block;
+    width: 100%;
+}
+.heading1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05), 0 1px 4px rgba(0,0,0,.05), 0 2px 8px rgba(0,0,0,.05);
+}
+.button1{
+    padding: 6px;
+    margin: 2px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: solid black 1px;
+}
+.prod-container{
+    background-color: #fff;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px; /* Adjust the gap as needed */
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 50px;
+    margin: 0px;
+    
+
+
+  }
+  
+  .grid-item {
+    display: grid;
+    padding: 30px;
+    grid-template-rows: auto auto auto; /* Three equal rows within each item */
+    gap: 10px; /* Adjust the gap within each item as needed */
+    border-radius: 4px;
+    justify-items: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    
+    background-color: #fff;
+  }
+  
+  .grid-item img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: 40vh; /* Set a specific height for the images, adjust as needed */
+    object-fit: cover;
+    object-position: center;
+  }
+  .items:hover{
+    color: black;
+  }
+  .item1{
+    color:black;
+
+  }
+  
+  
