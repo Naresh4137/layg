@@ -1,6 +1,6 @@
 .card {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Five equal columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     align-items: center;
     padding: 10px;
     border: 1px solid #ccc;
@@ -20,7 +20,7 @@
   }
   
   .delete-button {
-    background-color: #ff6347; /* Tomato color for delete button */
+    background-color: #ff6347; 
     color: #fff;
     padding: 8px;
     border: none;
@@ -34,9 +34,13 @@
     padding: 15px;
     background-color: #fff;
   }
+  .cartbtn>button:hover{
+    background-color: #f2b808;
+  }
   .cartbtn>button{
     background-color: #ffc107;
     border-radius: 4px;
     padding: 10px;
     border-style:none ;
+    color: black;
   }

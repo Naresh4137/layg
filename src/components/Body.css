@@ -33,9 +33,9 @@
 .btn{
     border-style: none;  
 }
-.btn>a{
-    text-decoration: none;
-    color: black;
+.btn:hover{
+    background-color: rgb(210, 209, 209);
+    border-radius: 4px;
 }
 .image{
     display: block;
@@ -58,7 +58,12 @@
     margin: 2px;
     background-color: #fff;
     border-radius: 6px;
+    color: black;
     border: solid black 1px;
+}
+.button1:hover{
+    background-color: black;
+    color: #fff;
 }
 .prod-container{
     background-color: #fff;
@@ -68,8 +73,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
-    gap: 20px; /* Adjust the gap as needed */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
     border-radius: 4px;
     background-color: #eee;
     padding: 50px;
@@ -82,18 +87,18 @@
   .grid-item {
     display: grid;
     padding: 30px;
-    grid-template-rows: auto auto auto; /* Three equal rows within each item */
-    gap: 10px; /* Adjust the gap within each item as needed */
+    grid-template-rows: auto auto auto; 
+    gap: 10px; 
     border-radius: 4px;
-    justify-items: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-items: center; 
+    align-items: center; 
     
     background-color: #fff;
   }
   
   .grid-item img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: 40vh; /* Set a specific height for the images, adjust as needed */
+    max-width: 100%; 
+    height: 40vh; 
     object-fit: cover;
     object-position: center;
   }
